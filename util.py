@@ -18,5 +18,13 @@ def finalizar_app():
 
 
 def voltar_ao_menu():
-    input('Digite uma tecla para voltar ao menu principal')
+    input('Digite uma tecla para voltar ao menu principal: ')
     app.main() 
+
+def exibir_subtitulo(texto):
+    os.system('cls')
+    linha = '*' * (len(texto))
+    print(linha)
+    print(texto)
+    print(linha)
+    print()    
